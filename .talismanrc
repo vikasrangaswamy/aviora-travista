@@ -1,0 +1,24 @@
+# Reviewed scanner false positives (lockfile hashes, UI words), pinned by checksum.
+# Any change to a listed file makes Talisman scan it again.
+fileignoreconfig:
+- filename: package-lock.json
+  checksum: e9cf7216ae89f30c3c1036a97b075dc6747208d8712cd6efe3f018fcc0cc157b
+- filename: .env.example
+  checksum: 3e4544e99a3949871001c54bf374417b43ee7080c094bbaba801855a65035a43
+- filename: .github/workflows/deploy.yml
+  checksum: 6bc1b89d5c7f5b60c7856c826e6b634fb24731babece79df5326ef4f3df75227
+- filename: README.md
+  checksum: dd9436ca0ef14e34f0a9d91bed26123146616dafb6e806d6c794e1f2e65c5f24
+- filename: index.html
+  checksum: 392e03c8db05775af910a2858b484852661267ea2e193e0fb7331834770c408b
+- filename: src/data.js
+  checksum: 05bd221645610bc1bb2d9212c8a19ab0454f84e8ea197051280786205d6a7f11
+- filename: src/enquiry.js
+  checksum: d8ca00f0980902d8f00f941b5a3834b2c202750eafc4916a9e346d35e033df7b
+- filename: src/livemap.js
+  checksum: 9d428e92c739965ac41f9258edf8732ec2c9d185bd1b1cb49aa3a6da8c5ecef3
+- filename: src/main.js
+  checksum: 37109e96ef388a4507b2836021ab460435525ecfd1aaa5484dea1686e4962599
+- filename: src/styles.css
+  checksum: 7004da36d545dba356e2d5e9a7b3a17f0b4d9a6c5ec13b95c0fc037cc2fb68ca
+version: "1.0"
